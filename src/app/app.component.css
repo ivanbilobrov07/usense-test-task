@@ -1,0 +1,33 @@
+.box {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.idle > div {
+  background-color: gray;
+}
+
+.bad > div {
+  background-color: red;
+}
+
+.easy > div {
+  background-color: gray;
+}
+
+.easy > div:first-child {
+  background-color: red;
+}
+
+.medium > div {
+  background-color: orange;
+}
+
+.medium > div:last-child {
+  background-color: gray;
+}
+
+.strong > div {
+  background-color: green;
+}
